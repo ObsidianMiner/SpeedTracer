@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CPUTracer">
+      <UniqueIdentifier>{9133a813-70e3-4341-ab4e-a0aedc925b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GPUTracer">
+      <UniqueIdentifier>{d653776f-c622-466a-963f-7a546eefd688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUTracer\shaderClass.cpp">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUTracer\glad.c">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPUTracer\RenderedObject.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Scene.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\shaderClass.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Sphere.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\stb_image.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\stb_image_write.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Utils.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Vec3.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Camera.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Color.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Interval.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Material.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\MathUtil.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Ray.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUTracer\Render.h">
+      <Filter>Source Files\CPUTracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CPUTracer\screen.frag">
+      <Filter>Source Files\CPUTracer</Filter>
+    </None>
+    <None Include="CPUTracer\screen.vert">
+      <Filter>Source Files\CPUTracer</Filter>
+    </None>
+    <None Include="GPUTracer\GPUscreen.vert">
+      <Filter>Source Files\GPUTracer</Filter>
+    </None>
+    <None Include="GPUTracer\GPUscreen.frag">
+      <Filter>Source Files\GPUTracer</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="text.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="display.vert">
+      <Filter>Source Files\GPUTracer</Filter>
+    </None>
+    <None Include="display.frag">
+      <Filter>Source Files\GPUTracer</Filter>
+    </None>
+  </ItemGroup>
+</Project>
